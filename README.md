@@ -1,0 +1,2 @@
+# DCGANvsDDPM
+dissertation
