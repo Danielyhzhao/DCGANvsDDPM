@@ -1,6 +1,0 @@
-DCGAN Training Time: 2513.01 seconds
-DCGAN FID: 0.03
-DCGAN Diversity: 0.2756
-DDPM Training Time: 3063.07 seconds
-DDPM FID: 26.15
-DDPM Diversity: 0.4225
