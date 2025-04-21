@@ -17,11 +17,13 @@ This project implements and compares **DCGAN** and **DDPM** on the MNIST dataset
 
 ### Setup
 1. Clone the repository:
+
 git clone https://github.com/your-username/MNISTGenComp.git
+
 cd MNISTGenComp
 2. Install dependencies:
 pip install -r requirements.txt
-Dependencies:  
+
 torch
 torchvision
 torchmetrics
