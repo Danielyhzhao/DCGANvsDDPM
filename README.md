@@ -20,7 +20,7 @@ This project implements and compares **DCGAN** and **DDPM** on the MNIST dataset
 ### 1. Clone the Repository
 
 
-git clone https://github.com/your-username/MNISTGenComp.git
+git clone https://github.com/your-username/MNISTGenCompare.git
 
 
 cd MNISTGenCompare
