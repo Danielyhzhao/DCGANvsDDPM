@@ -15,21 +15,24 @@ This project implements and compares **DCGAN** and **DDPM** on the MNIST dataset
 - PyTorch  
 - CUDA (optional, for GPU)  
 
-### Setup
-1. Clone the repository:
+## Setup
+
+### 1. Clone the Repository
+
 
 git clone https://github.com/your-username/MNISTGenComp.git
 
-cd MNISTGenComp
-2. Install dependencies:
+
+cd MNISTGenCompare
+
+### 2. Install Dependencies
+
 pip install -r requirements.txt
 
-torch
-torchvision
-torchmetrics
-numpy
-matplotlib
-3. MNIST dataset will be auto-downloaded to `data/` when running the script.
+
+### 3. Download MNIST Dataset
+
+The MNIST dataset will be automatically downloaded to the data/ directory when running the script for the first time.
 
 ## Usage
 
