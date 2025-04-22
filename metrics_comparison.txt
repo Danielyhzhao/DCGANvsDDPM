@@ -1,0 +1,8 @@
+Best DCGAN Params: lr0.0004_beta10.3
+DCGAN FID: 0.02
+DCGAN Diversity: 0.3281
+DCGAN Training Time: 1301.01 seconds
+Best DDPM Params: lr5e-05_T200
+DDPM FID: 19.72
+DDPM Diversity: 0.3677
+DDPM Training Time: 3036.53 seconds
