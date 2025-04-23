@@ -36,11 +36,11 @@ After training, the best models (based on FID scores) are saved and compared usi
 
 ```
 ├── README.md
-├── main.py                  # Main training script that runs DCGAN and DDPM training pipelines.
+├── train.py                 # Main training script that runs DCGAN and DDPM training pipelines.
 ├── model.py                 # Contains the model definitions for Generator, Discriminator, ConditionalUNet, and DiffusionModel.
 ├── dataset.py               # Contains the MNIST dataset loader function.
 ├── utils.py                 # Utility functions for saving images, plotting learning curves, computing FID/diversity, etc.
-├── flask_app.py             # Flask web application to generate images from the trained models.
+├── app.py                   # Flask web application to generate images from the trained models.
 └── requirements.txt         # List of required Python packages.
 ```
 
@@ -51,8 +51,8 @@ After training, the best models (based on FID scores) are saved and compared usi
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/mnist-generation.git
-   cd mnist-generation
+   git clone https://github.com/Danielyhzhao/MNISTGenCompare.git
+   cd MNISTGenCompare
    ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
@@ -106,7 +106,7 @@ The best DDPM U-Net is saved as `ddpm_unet_best.pth`.
 To start training, simply run:
 
 ```bash
-python main.py
+python train.py
 ```
 
 This will train both models on the MNIST dataset using a grid search on defined hyperparameters and save the best performing models along with logs and visualizations in the specified directories.
@@ -118,7 +118,7 @@ A Flask web application is provided for interactive image generation:
 1. **Run the Flask App:**
 
    ```bash
-   python flask_app.py
+   python app.py
    ```
 
 2. **Usage:**
@@ -156,8 +156,3 @@ Plots for learning curves and parameter comparisons are saved during training fo
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
----
-
-This `README.md` file provides a clear guide on the project's purpose, structure, installation, training, web application use, evaluation metrics, and usage notes. You can modify any section as needed to better suit updates in your project or personal preferences.
