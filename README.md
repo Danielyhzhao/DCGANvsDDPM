@@ -156,3 +156,8 @@ Plots for learning curves and parameter comparisons are saved during training fo
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- MNIST dataset from torchvision  
+- Inspired by DCGAN and DDPM research  
+- Thanks to PyTorch community
