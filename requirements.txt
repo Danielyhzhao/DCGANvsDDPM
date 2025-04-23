@@ -3,5 +3,5 @@ torchvision
 torchmetrics
 numpy
 matplotlib
-flask
-pillow
+Flask
+Pillow
